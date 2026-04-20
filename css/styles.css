@@ -42,9 +42,10 @@ p, h1, h2, h3, h4 {
 
 .gallery-image {
   display: block;
-  width: 100%;
-  height: 300px;
+  width: 360px;
+  height: 200px;
   object-fit: cover;
+  object-position: center;
   transition: transform 250ms ease-in-out;
 }
 
